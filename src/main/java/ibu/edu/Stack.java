@@ -29,4 +29,8 @@ public class Stack<Item> {
         }
         return false;
     }
+
+    public int size() {
+        return size;
+    }
 }
